@@ -54,6 +54,7 @@ function checkResult(userChoice,computerChoice){
         }
     }
     if(result.innerHTML==='You win!'){
-        alert('You win!🍾🎉🥂');
+        setTimeout(()=>{alert('You win!🍾🎉🥂');},1000);
+        
     }
 }
