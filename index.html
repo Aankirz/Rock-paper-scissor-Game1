@@ -7,23 +7,35 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
    
+    <style>
+        body{
+            background-color: #f2f2f2;
+            color: deeppink;
+        }
+        .container{
+          border: 2px solid black;
+          position: relative;
+          top: 150px;
+          padding: 50px;
+        }
+    </style>
 </head>
 <body>
-<h2>
-    Computer choice: <span id="computer-choice"></span>
-</h2>
-<h2>
-    User choice: <span id="user-choice"></span>
-</h2>
-<h2>
-    Result: <span id="result"></span>
-</h2>
-
-<button id="rock">Rock</button>
-<button id="paper">Paper</button>
-<button id="scissors">Scissor</button>
-
-
+    <div class="container">
+        <h2>
+            Computer choice: <span id="computer-choice"></span>
+        </h2>
+        <h2>
+            User choice: <span id="user-choice"></span>
+        </h2>
+        <h2>
+            Result: <span id="result"></span>
+        </h2>
+        
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissor</button>
+    </div>
 
 
  <script src='app.js'></script>

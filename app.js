@@ -28,6 +28,7 @@ function generateComputerChoice(){
     }
     computerChoiceDisplay.innerHTML=computerChoice;
     checkResult(userChoice,computerChoice);
+
 }
 
 function checkResult(userChoice,computerChoice){
@@ -51,5 +52,9 @@ function checkResult(userChoice,computerChoice){
         }else{
             result.innerHTML='You lose!';
         }
+    }
+    if(result.innerHTML==='You win!'){
+        setTimeout(()=>{alert('You win!🍾🎉🥂');},100);
+        
     }
 }
